@@ -1,0 +1,566 @@
+.mb-3 {
+    font-family: 100px;
+    font-weight: 900;
+    text-shadow: 5px 5px 10px rgb(255, 0, 217);
+}
+
+.btn {
+    background: rgb(68, 45, 171);
+    border-radius: 20px;
+}
+
+.btn h2 {
+    font-size: 15px;
+}
+
+.btn ul {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.p-5 {
+    background: indigo;
+}
+
+.p-5 h4 {
+    font-size: 20px;
+    margin-top: -40px;
+}
+
+.p-5 h3 {
+    font-size: 20px;
+    margin-top: -40px;
+}
+
+.btn1 h2 {
+    margin-top: 50px;
+    color: black;
+}
+
+.btn1 img {
+    width: 320px;
+    height: 250px;
+    margin-top: 40px;
+}
+.containerb{
+    background-color: #0e324d;
+}
+.containerb h2{
+    text-align: center;
+    color: white;
+}
+.containerb ul{
+    color: white;
+}
+.containerc{
+    display: flex;
+    flex-direction: row;
+    width: 1505px;
+}
+
+.flex-sect {
+    background-color: #fafafa;
+    padding: 100px 10px;
+    font-family: Helvetica, serif;
+}
+
+.flex-title {
+    margin-bottom: 15px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 700;
+    color: #555;
+    padding: 5px;
+}
+
+.flex-desc {
+    margin-bottom: 55px;
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 5px;
+}
+
+.cards {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.cardss {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.card {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 2px 0 rgba(10, 9, 9, 0.356);
+    border-radius: 2px;
+    transition: all 0.5s ease;
+    font-weight: 100;
+    overflow: hidden;
+    border-radius: 200px;
+}
+carda{
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 2px 0 rgba(10, 9, 9, 0.356);
+    border-radius: 2px;
+    transition: all 0.5s ease;
+    font-weight: 100;
+    overflow: hidden;
+    border-radius: 200px;
+
+}
+
+.speakers{
+    text-align: center;
+    color: blue;
+    font-weight: 400px;
+    background:#000;
+}
+.about{
+    text-align: center;
+    color: blue;
+    font-weight: 800px;
+    background: #000;
+}
+.s-program{
+    text-align: center;
+    color: blue;
+    font-weight: 800px;
+    background: #000;  
+}
+
+.card:hover {
+    margin-top: -5px;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
+}
+.carda:hover {
+    margin-top: -5px;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    height: 155px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPKPM750A-oI605YpUan_3EyhIbVkPfxDzXw&usqp=CAU");
+    width: 300px;
+    height: 210px;
+    margin-left: 0px;
+    background-size: cover;
+
+}
+
+.card-header.ch2 {
+    background-image: url("https://static.toiimg.com/thumb/msid-65543068,width-400,resizemode-4/65543068.jpg");
+    width: 300px;
+    height: 210px;
+    margin-left: 0px;
+}
+
+.card-header.ch3 {
+    background-image: url("https://static.toiimg.com/thumb/msid-73239369,width-400,resizemode-4/73239369.jpg");
+    width: 300px;
+    height: 210px;
+    margin-left: 0px;
+}
+
+.card-header.ch4 {
+    background-image: url("https://www.coeonewaste.com/images/coe-team/ratheesh.jpg");
+    width: 300px;
+    height: 200px;
+    margin-left: 0px;
+}
+
+.card-header.ch5 {
+    background-image: url("https://www.jncasr.ac.in/sites/default/files/Faculty-Profile/2020-12/ks%20naryan.jpg");
+    width: 300px;
+    height: 210px;
+    margin-left: 0px;
+}
+
+.card-header.ch6 {
+    background-image: url("https://casest.uohyd.ac.in/wp-content/uploads/2021/03/rajaram.jpeg");
+    width: 300px;
+    height: 210px;
+    margin-left: 0px;
+}
+
+.card-header.ch7 {
+    background-image: url("https://ast-science.com/wp-content/uploads/2022/06/Sriram-Jayasimha-AST-Science.jpg");
+    width: 300px;
+    height: 200px;
+    margin-left: 0px;
+}
+
+.card-header.ch8 {
+    background-image: url("https://www.manjeerads.com/wp-content/uploads/2018/10/dr-venu-kandadai.png");
+    width: 300px;
+    height: 200px;
+    margin-left: 0px;
+}
+
+.card-header.ch9 {
+    background-image: url("./kk.jpg");
+    width: 150px;
+    height: 200px;
+    margin-left: 70px;
+}
+
+.card-header.ch10 {
+    background-image: url("https://www.nitj.ac.in/physics/issmd2020/images/mhs.jpg");
+}
+
+.card-body {
+    padding: 15px 15px 5px 15px;
+    color: #555;
+}
+
+.card-title {
+    font-size: 1.4em;
+    font-weight: 900;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.card-title1 {
+    font-size: 1em;
+    font-weight: 900;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.card-sub-title {
+    color: #141212;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.card-desc {
+    font-size: 0.85rem;
+    line-height: 17px;
+}
+
+.container {
+    background-color: rgb(220, 190, 57);
+}
+
+.container h2 {
+    text-align: center;
+    font-weight: 900;
+    color: rgb(92, 153, 197);
+}
+
+.container ul {
+    font-weight: 700;
+}
+
+.card-deck {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card1 {
+    background-color: rgb(197, 196, 193);
+    height: 320px;
+    width: 200px;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 2px 0 rgba(10, 9, 9, 0.356);
+    transition: all 0.5s ease;
+    font-weight: 100;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-left: 0px;
+}
+
+.card-body img {
+    border-radius: 200px;
+
+}
+
+.card1:hover {
+    margin-top: -5px;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card2 {
+    background-color: rgb(74, 140, 174);
+    height: 320px;
+    width: 200px;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 2px 0 rgba(10, 9, 9, 0.356);
+    transition: all 0.5s ease;
+    font-weight: 100;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.card3 {
+    background-color: rgb(74, 140, 174);
+    height: 320px;
+    width: 200px;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 2px 0 rgba(10, 9, 9, 0.356);
+    transition: all 0.5s ease;
+    font-weight: 100;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.card4 {
+    background-color: rgb(74, 140, 174);
+    height: 320px;
+    width: 200px;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 2px 0 rgba(10, 9, 9, 0.356);
+    transition: all 0.5s ease;
+    font-weight: 100;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.card5 {
+    background-color: rgb(74, 140, 174);
+    height: 320px;
+    width: 200px;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 2px 0 rgba(10, 9, 9, 0.356);
+    transition: all 0.5s ease;
+    font-weight: 100;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.container{
+    background-color: #d6d4d42f;
+}
+.col img{
+    align-items: center;
+    margin-left: 00px;
+    width: 350px;
+    height: 150px;
+}
+.col b{
+    color: black;
+    font-weight: 900;
+}
+.col{
+    font-weight: 600;
+}
+.bdg-sect{
+    padding-top:100px;
+    padding-bottom:100px;
+    font-family:Helvetica, serif;
+    background-color:#060606a3; 
+  }
+  .bdg-title{
+    text-align:center;
+    font-size:40px;
+    font-weight: 900;
+    margin-bottom:55px;
+    color:#eeeaea;
+  }
+  .bdg-sect h2{
+    color: #fff;
+    margin-left: 30px;
+    margin-top: -20px;
+
+  }
+  .badges{
+    padding:20px;
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    flex-direction: row;
+    background-color: #0808089b;
+  }
+  .badge{
+    width:260px;
+    font-family:Helvetica, serif;
+    background-color:white;
+    margin-top: 0px;
+    box-shadow:0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    border-radius:3px;
+    font-weight:100;
+    overflow:hidden;
+    text-align:center;
+    margin-left: 50px;
+
+  }
+ 
+
+  .badge-header{
+    height:115px;
+    background-image:url("https://grapesjs.com/img/bg-gr-v.png"), url("https://grapesjs.com/img/work-desk.jpg");
+    background-position:left top, center center;
+    background-attachment:scroll, fixed;
+    overflow:hidden;
+  }
+  .badge-name{
+    font-size:14px;
+    margin-bottom:5px;
+  }
+  .badge-role{
+    color:rgb(8, 7, 7);
+    font-size:20px;
+    font-weight: 600 ;
+    margin-bottom:25px;
+  }
+  .badge-desc{
+    font-size:25px;
+    line-height:20px;
+    
+  }
+  .badge-avatar{
+    width:150px;
+    height:150px;
+    border-radius:100%;
+    border:5px solid #fff;
+    box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.2);
+    margin-top:-75px;
+    position:relative;
+    margin-left: 0px;
+  }
+  .badge-body{
+    margin:35px 10px;
+
+  }
+  .badge-foot{
+    color:#fff;
+    background-color:#a290a5;
+    padding-top:13px;
+    padding-bottom:13px;
+    display:flex;
+    justify-content:center;
+  }
+  .badge-link{
+    height:35px;
+    width:35px;
+    line-height:35px;
+    font-weight:700;
+    background-color:#fff;
+    color:#a290a5;
+    display:block;
+    border-radius:100%;
+    margin:0 10px;
+  }
+  .col h3{
+    color: white;
+    font-weight: 400;
+  }
+  .card-header.ch11 {
+    background-image: url("https://bl-i.thgim.com/public/news/education/hjyl2t/article36992539.ece/alternates/FREE_385/BL14StaesBJRaojpg");
+    width: 300px;
+    height: 210px;
+    margin-left: 0px;
+}
+.comite h2{
+    margin-left: 50px;
+    font-weight: 900;
+}
+.card-header.ch12 {
+    background-image: url("http://e-portal.ccmb.res.in/e-space/mohan/people_images/chmohanrao.jpg");
+    width: 300px;
+    height: 210px;
+    margin-left: 0px;
+}
+
+.card-header.ch13 {
+    background-image: url("http://sop.uohyd.ac.in/assets/img/faculty/Ghanshyam_Krishna.jpg");
+    width: 300px;
+    height: 200px;
+    margin-left: 0px;
+}
+
+.card-header.ch14 {
+    background-image: url("https://casest.uohyd.ac.in/wp-content/uploads/elementor/thumbs/IMG_1281-scaled-p43hg8irgrv7jeoy8p92eo94vazh30ezyouxfcrznw.jpg");
+    width: 300px;
+    height: 210px;
+    margin-left: 0px;
+}
+
+.card-header.ch15 {
+    background-image: url("https://casest.uohyd.ac.in/wp-content/uploads/elementor/thumbs/Dr-S-V-S-Nageswara-Rao-p43ghfjwh8y5433ivq6hzw7snovn4149ubl4k0mbbg.jpg");
+    width: 200px;
+    height: 210px;
+    margin-left: 20px;
+}
+
+.card-header.ch16 {
+    background-image: url("#");
+    width: 300px;
+    height: 200px;
+    margin-left: 0px;
+}
+
+.card-header.ch17 {
+    background-image: url("https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/241148121_10158144151291053_4474723090484713838_n.jpg?stp=dst-jpg_s600x600&_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=jyNEvEx7d_wAX94gaTj&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAG8DtoUoetj9iIBqob3-BRl0UnYMfRN1jB2DjizRmo1A&oe=63C300B4");
+    width: 300px;
+    height: 200px;
+    margin-left: 0px;
+}
+.card-header.ch18 {
+    background-image: url("https://casest.uohyd.ac.in/wp-content/uploads/2021/03/rajaram-768x781.jpeg");
+    width: 300px;
+    height: 200px;
+    margin-left: 0px;
+}
+.card-header.ch19 {
+    background-image: url("https://0.academia-photos.com/37205348/17341223/17443632/s200_pratap.kollu.jpg");
+    width: 250px;
+    height: 200px;
+    margin-left: 0px;
+}
+.card-header.ch20 {
+    background-image: url("https://casest.uohyd.ac.in/wp-content/uploads/2021/03/IMG-20210214-WA0030_2.jpg");
+    width: 200px;
+    height: 200px;
+    margin-left: 0px;
+}
+.card-header.ch21 {
+    background-image: url("https://casest.uohyd.ac.in/wp-content/uploads/2021/03/anjali_priya-261x300.jpg");
+    width: 200px;
+    height: 200px;
+    margin-left: 0px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:700px) {
+    btn btn-outline-light btn-lg li p {
+        font-size: 10px;
+    }
+
+    .card1 {
+        flex: 50%;
+        max-width: 50%;
+    }
+
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+    .card2,
+    .card1,
+    .card3 {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+
+}
