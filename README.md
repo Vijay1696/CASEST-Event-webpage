@@ -1,2 +1,2 @@
-# CASEST-Event-webpage
+# CASEST-Event-Coference-webpage
 CENTRE FOR ADVANCED STUDIES IN ELECTRONICS SCIENCE &amp; TECHNOLOGY Conference Webpage
